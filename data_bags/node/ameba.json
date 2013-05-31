@@ -1,0 +1,1 @@
+{"domain": "", "name": "ameba", "roles": ["base"], "ntp": {"ntpdate": {"disable": false}, "peers": [], "restrictions": []}, "recipes": ["ntp", "htop"], "hostname": "ameba", "fqdn": "ameba", "role": ["base"], "run_list": ["role[base]"], "ipaddress": "82.196.5.169", "id": "ameba"}

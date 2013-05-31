@@ -1,0 +1,10 @@
+{
+	"chef_type": "role",
+	"json_class": "Chef::Role",
+	"name": "base",
+	"description": "base role for my servers",
+	"run_list": [
+		"recipe[ntp]",
+		"recipe[htop]"
+	]
+}

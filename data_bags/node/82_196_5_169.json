@@ -1,0 +1,1 @@
+{"domain": "196.5.169", "name": "82.196.5.169", "roles": ["base"], "ntp": {"ntpdate": {"disable": false}, "peers": [], "restrictions": []}, "recipes": ["ntp", "htop"], "hostname": "82", "fqdn": "82.196.5.169", "role": ["base"], "run_list": ["role[base]"], "ipaddress": "82.196.5.169", "id": "82_196_5_169"}

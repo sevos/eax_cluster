@@ -1,0 +1,7 @@
+{
+    "ipaddress": "82.196.5.169",
+    "name": "82.196.5.169",
+    "run_list": [
+        "recipe[nginx:source]"
+    ]
+}

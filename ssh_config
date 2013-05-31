@@ -1,0 +1,11 @@
+IdentityFile ~/.ssh/id_rsa
+ForwardAgent yes
+
+Host pi
+	HostName 192.168.1.2
+	User root
+
+Host ameba
+	HostName 82.196.5.169
+	User root
+	

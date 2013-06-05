@@ -1,0 +1,14 @@
+{
+	"chef_type": "role",
+	"json_class": "Chef::Role",
+	"name": "ssh_tunnel_gateway",
+	"description": "Setup node to support tunneling with public ports",
+	"run_list": [
+		"recipe[openssh]"
+	],
+	"override_attributes": {
+		"openssh": {
+			"gateway_ports": "yes"
+		}
+	}
+}

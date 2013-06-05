@@ -1,1 +1,0 @@
-{"domain": "", "name": "pi", "roles": ["base"], "ntp": {"ntpdate": {"disable": false}, "peers": [], "restrictions": []}, "recipes": ["ntp", "htop"], "hostname": "pi", "fqdn": "pi", "role": ["base"], "run_list": ["role[base]"], "ipaddress": "192.168.1.2", "id": "pi"}

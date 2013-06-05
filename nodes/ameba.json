@@ -2,6 +2,7 @@
     "ipaddress": "82.196.5.169",
     "name": "ameba",
     "run_list": [
-        "role[base]"
+        "role[base]",
+    	"role[ssh_tunnel_gateway]"
     ]
 }
